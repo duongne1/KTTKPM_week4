@@ -4,18 +4,21 @@ Fetching data from the database and saving it to the Redis cache:
 
 http://localhost:8080/products/3 
 
-Time: 180ms 
+Time: 128ms 
 
-![image](https://github.com/duongne1/KTTKPM_week4/assets/90126154/71196082-0551-439b-a4db-af74e8e5e574) 
+![image](https://github.com/duongne1/KTTKPM_week4/assets/90126154/6e9731f8-2cb2-459f-86ff-1ed97c4b76a3)
+
 
 Data save cash:
 
-![image](https://github.com/duongne1/KTTKPM_week4/assets/90126154/c6b86c22-76f6-4e5d-afd1-89c30a5e5af9) 
+![image](https://github.com/duongne1/KTTKPM_week4/assets/90126154/aa6cc68d-1a81-4c9e-be02-95b53a2ce62a)
+
 
 Second Run: Fetching data from cache => Time query reduce:
 
 http://localhost:8080/products/3 
 
-Time: 5ms 
+Time: 6ms 
 
-![image](https://github.com/duongne1/KTTKPM_week4/assets/90126154/cfec1413-9105-425a-97d7-b6e693441279)
+![image](https://github.com/duongne1/KTTKPM_week4/assets/90126154/d039dc27-07b5-4917-b6db-453446949720)
+
